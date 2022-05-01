@@ -2,6 +2,8 @@
 
 
 include_once('Model/Usuario.php');
+include_once('Model/Provider.php');
+include_once('DAO/ProviderDAO.php');
 include_once('DAO/UsuarioDAO.php');
 include_once('DAO/DaoFactory.php');
 include_once('DAO/PostgresDaoFactory.php');

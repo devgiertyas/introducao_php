@@ -11,8 +11,6 @@ $usuario = null;
 if ($id) {
     $dao = $factory->getUsuarioDao();
     $usuario = $dao->getById($id);
-} else {
-    // Alteração
 }
 
 

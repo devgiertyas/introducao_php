@@ -37,11 +37,11 @@
                     echo "<a href='usuarios.php'>Produtos</a>";
                     echo "</li>";
                     echo "<li class='top-admin-menu-item'>";
-                    echo "<a href='usuarios.php'>Fornecedores</a>";
+                    echo "<a href='providers.php'>Fornecedores</a>";
                     echo "</li>";
-                    echo "<li class='top-admin-menu-item'>";
-                    echo "<a href='usuarios.php'>Pedidos</a>";
-                    echo "</li>";
+                    // echo "<li class='top-admin-menu-item'>";
+                    // echo "<a href='usuarios.php'>Pedidos</a>";
+                    // echo "</li>";
                     echo "<li class='top-admin-menu-item'>";
                     echo "<a href='users.php'>Usuários</a>";
                     echo "</li>";
@@ -53,7 +53,7 @@
         </div>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Ecommerce</a>
+                <a class="navbar-brand" href="index.php">Ecommerce</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -64,7 +64,7 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="category.html">Produtos</a>
+                            <a class="nav-link" href="">Produtos</a>
                         </li>
                     </ul>
 
