@@ -27,5 +27,15 @@ CREATE TABLE product (
 	  REFERENCES provider(id_provider)
 );
 
+CREATE TABLE product_stock (
+ id_product_stock serial PRIMARY KEY,
+ id_product int not null,
+ quantity integer,
+ price numeric(15,2),
+ CONSTRAINT fk_product
+  FOREIGN KEY(id_product) 
+	  REFERENCES product(id_product)
+);
+
 insert into users (email, name, password, role) values ('admin@admin.com', 'Natã Giertyas',
 '82b83e666a49d8a95c424330bb4edfc8', 'admin')

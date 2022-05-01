@@ -34,7 +34,7 @@
                 if($role == "admin")
                 {
                     echo "<li class='top-admin-menu-item'>";
-                    echo "<a href='usuarios.php'>Produtos</a>";
+                    echo "<a href='products.php'>Produtos</a>";
                     echo "</li>";
                     echo "<li class='top-admin-menu-item'>";
                     echo "<a href='providers.php'>Fornecedores</a>";
